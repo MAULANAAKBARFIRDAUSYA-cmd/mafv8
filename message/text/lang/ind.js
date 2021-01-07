@@ -993,23 +993,23 @@ exports.tos = (ownerNumber) => {
     return `
 -----[ TERMS OF SERVICE ]-----
 
-Bot ini merupakan open-source bot dengan nama asli BocchiBot yang tersedia di GitHub secara gratis.
-Owner/hoster dari bot ini terlepas dari tanggung jawab dan pengawasan developer (Slavyan).
+Bot ini merupakan open-source bot dengan nama asli mafv8 yang tersedia di GitHub secara gratis.
+Owner/hoster dari bot ini terlepas dari tanggung jawab dan pengawasan developer.
 Owner/hoster boleh menjiplak, menambahkan, menghapus, mengganti source code dengan catatan *tidak memperjualbelikannya* dalam bentuk apapun.
 Apabila terjadi sebuah error, orang yang pertama yang harus kalian hubungi ialah owner/hoster.
 
 Jika kalian ingin berkontribusi dalam projek ini, silakan kunjungi:
-https://github.com/SlavyanDesu/BocchiBot
+https://github.com/MAULANAAKBAR*************/mafv8
 
 Contact person:
 wa.me/${ownerNumber.replace('@c.us', '')} (Owner/hoster)
 wa.me/6281294958473 (Developer)
 
 Kalian juga bisa mendukung saya agar bot ini tetap up to date dengan:
-081294958473 (OVO/Telkomsel/GoPay)
+085236167349 (OVO/Telkomsel/GoPay)
 
 Terima kasih!
 
-Slavyan.
+Maulana Akbar Firdausya.
     `
 }
