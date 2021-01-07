@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://images5.alphacoders.com/911/911614.png" alt="BocchiBot" width="500" />
+<img src="https://www.bing.com/images/search?view=detailV2&ccid=fIlsE5KL&id=EF954538072DCA949071FD23D34BD57D0EF202F6&thid=OIP.fIlsE5KLKp3Ay71pUYBEWwHaEK&mediaurl=https%3a%2f%2f64.media.tumblr.com%2f4d08cdd579fdc7ffeb00703f36e80c7a%2f48e937e0172a7158-ac%2fs500x750%2fefe51f4a66de33e0e5c857716460ac7c1627853e.gifv&exph=281&expw=500&q=majo+no+tabitabi+gif&simid=608030076719268113&ck=2582D6793A0D55F562F2CDD96C6D2ECE&selectedIndex=3&FORM=IRPRST&ajaxhist=0" alt="BocchiBot" width="500" />
 
 # BocchiBot
 
