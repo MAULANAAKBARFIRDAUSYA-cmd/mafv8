@@ -1,6 +1,6 @@
 {
-  "name": "MAF's Assistant",
-  "version": "8.0.0",
+  "name": "bocchibot",
+  "version": "0.5.0",
   "description": "MAF's Assistant is a multipurpose WhatsApp bot.",
   "main": "index.js",
   "scripts": {
