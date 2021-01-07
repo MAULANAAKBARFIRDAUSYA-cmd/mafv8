@@ -43,15 +43,15 @@
 # Installation
 ## 📝 Cloning this repo
 ```bash
-> git clone https://github.com/SlavyanDesu/BocchiBot
-> cd BocchiBot
+> git clone https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8
+> cd mafv8
 ```
 
 ## ✍️ Editing the file
 Edit the required value in `config.json`.
 ```json
 {
-    "ownerBot": "62812xxxxxxxx@c.us", 
+    "ownerBot": "6285236167349@c.us", 
     "prefix": "$",
     "uaOverride": "WhatsApp/2.2037.6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
     "token": "api-key",
@@ -257,20 +257,10 @@ If you want to unlock premium commands, please contact me~
 
 # Thanks to
 * [`open-wa/wa-automate-nodejs`](https://github.com/open-wa/wa-automate-nodejs)
-* [`YogaSakti/imageToSticker`](https://github.com/YogaSakti/imageToSticker)
-* [`uukina`](https://github.com/uukina)
-* [`MrPawNO`](https://github.com/MrPawNO)
-* [`Pahri123`](https://github.com/Pahri123)
-* [`LeviathanH`](https://github.com/LeviathanH)
-* [`ferlitopym`](https://github.com/ferlitopym)
-* [`AlvioAdjiJanuar`](https://github.com/AlvioAdjiJanuar)
-* [`VideFrelan`](https://github.com/VideFrelan)
-* [`VirusLauncher`](https://github.com/VirusLauncher)
-* [`shansekai`](https://github.com/shansekai)
 
 # License
-**BocchiBot** © [SlavyanDesu](https://github.com/SlavyanDesu), released under the MIT License.
-Authored and maintained by SlavyanDesu.
+**MAF's Assistant** © [Maulana Akbar Firdausya](https://github.com/MAULANAAKBARFIRDAUSYA-cmd), released under the MIT License.
+Authored and maintained by Maulana Akbar Firdausya.
 
 <p align="center">
     <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FSlavyanDesu%2FBocchiBot?ref=badge_large"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FSlavyanDesu%2FBocchiBot.svg?type=large" />
