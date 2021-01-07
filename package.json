@@ -7,15 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "SlavyanDesu",
+  "author": "Maulana Akbar Firdausya",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SlavyanDesu/BocchiBot.git"
+    "url": "https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8.git"
   },
   "bugs": {
-    "url": "https://github.com/SlavyanDesu/BocchiBot/issues"
+    "url": "https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8/issues"
   },
-  "homepage": "https://github.com/SlavyanDesu/BocchiBot",
+  "homepage": "https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8",
   "license": "MIT",
   "dependencies": {
     "@justalk/pornhub-api": "^3.4.0",
