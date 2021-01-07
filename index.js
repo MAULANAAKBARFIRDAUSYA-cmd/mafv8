@@ -1,75 +1,100 @@
-const { create, Client } = require('@open-wa/wa-automate')
-const { color, options } = require('./tools')
-const { ind, eng } = require('./message/text/lang/')
-const figlet = require('figlet')
-const msgHandler = require('./message')
-const config = require('./config.json')
-const ownerNumber = config.ownerBot
-const fs = require('fs-extra')
+const chalk = require('chalk')
+const crypto = require('crypto')
+const moment = require('moment-timezone')
+moment.tz.setDefault('Asia/Jakarta').locale('id')
 
-const start = async (bocchi = new Client()) => {
-    console.log(color(figlet.textSync('BocchiBot', 'Larry 3D'), 'cyan'))
-    console.log('[BOCCHI]', color('BocchiBot is now online!'))
-
-    // Force it to keep the current session
-    bocchi.onStateChanged((state) => {
-        console.log('[BOCCHI STATE]', state)
-        if (state === 'UNPAIRED') bocchi.forceRefocus()
-        if (state === 'CONFLICT') bocchi.forceRefocus()
-        if (state === 'UNLAUNCHED') bocchi.forceRefocus()
-    })
-
-    // Set all received message to seen
-    bocchi.onAck((x) => {
-        const { to } = x
-        if (x !== 3) bocchi.sendSeen(to)
-    })
-
-    // Listening added to group
-    bocchi.onAddedToGroup(async (chat) => await bocchi.sendText(chat.groupMetadata.id, ind.addedGroup(chat)))
-
-    // Listening to messages
-    bocchi.onMessage((message) => {
-        bocchi.getAmountOfLoadedMessages()
-            .then((msg) => {
-                if (msg >= 1000) {
-                    console.log('[BOCCHI]', color(`Loaded message reach ${msg}, cuting message cache...`, 'yellow'))
-                    bocchi.cutMsgCache()
-                    console.log('[BOCCHI]', color('Cache deleted!', 'yellow'))
-                }
-            })
-        msgHandler(bocchi, message) // Message handler
-    })
-
-    // Block person who called bot
-    bocchi.onIncomingCall(async (callData) => {
-        await bocchi.sendText(callData.peerJid, ind.blocked(ownerNumber))
-        await bocchi.contactBlock(callData.peerJid)
-        console.log(color('[BLOCK]', 'red'), color(`${callData.peerJid} has been blocked. Reason:`, 'yellow'), color('CALLING THE BOT', 'cyan'))
-    })
-
-    // Listen to group's event
-    bocchi.onGlobalParicipantsChanged(async (event) => {
-        const _welcome = JSON.parse(fs.readFileSync('./database/group/welcome.json'))
-        const isWelcome = _welcome.includes(event.chat)
-        const botNumbers = await bocchi.getHostNumber() + '@c.us'
-        try {
-            if (event.action === 'add' && event.who !== botNumbers && isWelcome) {
-                const pic = await bocchi.getProfilePicFromServer(event.who)
-                if (pic === undefined) {
-                    await bocchi.sendFileFromUrl(event.chat, 'https://i.imgur.com/UxvMPUz.png', 'profile.png', '')
-                } else {
-                    await bocchi.sendFileFromUrl(event.chat, pic, 'profile.jpg', '')
-                }
-                await bocchi.sendTextWithMentions(event.chat, ind.welcome(event))
-            }
-        } catch (err) {
-            console.error(err)
-        }
-    })
+/**
+ * Get text with color.
+ * @param {String} text 
+ * @param {String} color 
+ */
+const color = (text, color) => {
+    return !color ? chalk.green(text) : chalk.keyword(color)(text)
 }
 
-// Creating session
-create(options(start))
-    .then((bocchi) => start(bocchi))
-    .catch((err) => console.error(err))
+/**
+ * Create serial ID.
+ * @param {Number} size 
+ */
+const createSerial = (size) => {
+    return crypto.randomBytes(size).toString('hex').slice(0, size)
+}
+
+/**
+ * URL validator.
+ * @param {String} url 
+ */
+const isUrl = (url) => {
+    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/gi))
+}
+
+/**
+ * Get time duration.
+ * @param {Date} timestamp 
+ * @param {Date} now 
+ */
+const processTime = (timestamp, now) => {
+    return moment.duration(now - moment(timestamp * 1000)).asSeconds()
+}
+
+/**
+ * Client options.
+ * @param {Function} start 
+ */
+const options = (start) => {
+    const options = {
+        sessionId: 'BocchiBot',
+        headless: true,
+        qrTimeout: 0,
+        authTimeout: 0,
+        restartOnCrash: start,
+        cacheEnabled: false,
+        useChrome: true,
+        killProcessOnBrowserClose: true,
+        throwErrorOnTosBlock: false,
+        chromiumArgs: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--aggressive-cache-discard',
+            '--disable-cache',
+            '--disable-application-cache',
+            '--disable-offline-load-stale-cache',
+            '--disk-cache-size=0'
+        ]
+    }
+    return options
+}
+
+// Message filter
+const usedCommandRecently = new Set()
+
+/**
+ * Check is number filtered.
+ * @param {String} from 
+ */
+const isFiltered = (from) => {
+    return !!usedCommandRecently.has(from)
+}
+
+/**
+ * Add number to filter.
+ * @param {String} from 
+ */
+const addFilter = (from) => {
+    usedCommandRecently.add(from)
+    setTimeout(() => {
+        return usedCommandRecently.delete(from)
+    }, 5000) // 5 seconds delay, I don't recommend below that.
+}
+
+module.exports = {
+    msgFilter: {
+        isFiltered,
+        addFilter
+    },
+    color,
+    isUrl,
+    processTime,
+    options,
+    createSerial
+}
