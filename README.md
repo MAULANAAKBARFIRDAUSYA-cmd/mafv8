@@ -19,8 +19,6 @@
   <img src="https://img.shields.io/node/v/@open-wa/wa-automate" />
   <img src="https://img.shields.io/badge/maintained%3F-yes-green.svg?style=flat" />
   <img src="https://img.shields.io/github/repo-size/MAULANAAKBARFIRDAUSYA-cmd/mafv8" /> <br>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FMAULANAAKBARFIRDAUSYA-cmd%2Fmafv8?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FMAULANAAKBARFIRDAUSYA-cmd%2Fmafv8.svg?type=shield"/></a>
-  <a href="https://www.codefactor.io/repository/github/MAULANAAKBARFIRDAUSYA-cmd/mafv8"><img src="https://www.codefactor.io/repository/github/MAULANAAKBARFIRDAUSYA-cmd/mafv8/badge" /></a>
 </p>
 
 <p align="center">
