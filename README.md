@@ -30,7 +30,7 @@
 </p>
 
 <h4 align="center">
-  <a href="https://chat.whatsapp.com/KSG5C4SGlT2IpRtFm05owk">Join WA BOT DEV Indonesia!</a>
+  <a href="https://t.me/maulanaakbarf">Contact Me Via Telegram!</a>
 </h4>
 </div>
 
