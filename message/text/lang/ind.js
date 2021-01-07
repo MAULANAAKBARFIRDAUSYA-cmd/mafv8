@@ -2,7 +2,7 @@ const fs = require('fs-extra')
 const { prefix } = JSON.parse(fs.readFileSync('config.json'))
 
 exports.wait = () => {
-    return `Mohon tunggu sebentar~`
+    return `Mohon tunggu sebentar~\nSekitar <1 menit s/d >1 hari`
 }
 
 exports.ok = () => {
@@ -92,11 +92,11 @@ exports.botNotAdmin = () => {
 }
 
 exports.ytFound = (res) => {
-    return `*Video ditemukan!*\n\n➸ *Judul*:${res.title}\n➸ *Deskripsi*:${res.desc}\n➸ *Durasi*: ${res.duration} menit\n\nMedia sedang dikirim, mohon tunggu...`
+    return `*Video ditemukan!*\n\n➸ *Judul*:${res.title}\n➸ *Deskripsi*:${res.desc}\n➸ *Durasi*: ${res.duration} menit\n\nMedia sedang dikirim, mohon tunggu...\nSekitar <1 menit s/d >1 hari`
 }
 
 exports.notRegistered = () => {
-    return `Kamu belum terdaftar di database!\n\nSilakan register dengan format:\n*${prefix}register* nama | umur\n\nNote:\nHarap save nomor ku agar bisa mendapatkan serial!!`
+    return `Kamu belum terdaftar di database!\n\nSilakan register dengan format:\n*${prefix}register* nama | umur\n\nNote:\nHarap save nomor ku agar bisa mendapatkan serial!!\n\nWhatsApp :\n0852 3616 7349\nTelegram :\nhttps://t.me/maulanaakbarf`
 }
 
 exports.registered = (name, age, userId, time, serial) => {
@@ -120,7 +120,7 @@ exports.videoLimit = () => {
 }
 
 exports.joox = (result) => {
-    return `*Lagu ditemukan!*\n\n➸ *Penyanyi*: ${result[0].penyanyi}\n➸ *Judul*: ${result[0].judul}\n➸ *Album*: ${result[0].album}\n➸ *Ext*: ${result[0].ext}\n➸ *Size*: ${result[0].filesize}\n➸ *Durasi*: ${result[0].duration}\n\nMedia sedang dikirim, mohon tunggu...`
+    return `*Lagu ditemukan!*\n\n➸ *Penyanyi*: ${result[0].penyanyi}\n➸ *Judul*: ${result[0].judul}\n➸ *Album*: ${result[0].album}\n➸ *Ext*: ${result[0].ext}\n➸ *Size*: ${result[0].filesize}\n➸ *Durasi*: ${result[0].duration}\n\nMedia sedang dikirim, mohon tunggu...\nSekitar <1 menit s/d >1 hari`
 }
 
 exports.gsm = (result) => {
@@ -256,7 +256,7 @@ exports.registeredNotFound = (serial) => {
 }
 
 exports.ytPlay = (result) => {
-    return `*「 PLAY 」*\n\n➸ *Judul*: ${result.title}\n➸ *Durasi*: ${result.duration}\n➸ *Link*: ${result.url}\n\nMedia sedang dikirim, mohon tunggu...`
+    return `*「 PLAY 」*\n\n➸ *Judul*: ${result.title}\n➸ *Durasi*: ${result.duration}\n➸ *Link*: ${result.url}\n\nMedia sedang dikirim, mohon tunggu...\nSekitar <1 menit s/d >1 hari`
 }
 exports.pcOnly = () => {
     return `Command ini hanya bisa digunakan di dalam private chat saja!`
@@ -277,16 +277,16 @@ Berikut adalah menu yang tersedia:
 *[7]* Moderation
 *[8]* NSFW
 *[9]* Owner
-*[10]* Leveling [ALPHA]
+*[10]* Leveling [ALPHA - Development Stage]
 
 Ketik *${prefix}menu* angka_index untuk membuka menu page yang dipilih.
 
 Catatan:
-Perlakukan bot secara baik, dev akan bertindak tegas apabila user melanggar rules.
+Perlakukan BOT ini dengan baik ya! jika tidak, Pemilik BOT akan bertindak tegas apabila user melanggar rules.
 Bot ini terdapat anti-spam yang berupa cooldown command selama *5 detik* setiap kali pemakaian.
 
 Sincerely,
-Slavyan
+Maulana Akbar Firdausya
     `
 }
 
@@ -338,7 +338,7 @@ exports.menuBot = () => {
 -----[ BOT ]-----
 
 1. *${prefix}rules*
-Wajib baca.
+Wajib baca Rules/Aturan dalam penggunaan BOT!.
 Aliases: *rule*
 Usage: *${prefix}rules*
 
