@@ -12,23 +12,23 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/SlavyanDesu/BocchiBot"><img title="Stars" src="https://img.shields.io/github/stars/SlavyanDesu/BocchiBot?color=red&style=flat-square" /></a>
-  <a href="https://github.com/SlavyanDesu/BocchiBot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/SlavyanDesu/BocchiBot?color=red&style=flat-square" /></a>
-  <a href="https://github.com/SlavyanDesu/BocchiBot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/SlavyanDesu/BocchiBot?label=watchers&color=blue&style=flat-square" /></a> <br>
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8"><img title="Stars" src="https://img.shields.io/github/stars/MAULANAAKBARFIRDAUSYA-cmd/mafv8?color=red&style=flat-square" /></a>
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8/network/members"><img title="Forks" src="https://img.shields.io/github/forks/MAULANAAKBARFIRDAUSYA-cmd/mafv8?color=red&style=flat-square" /></a>
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/MAULANAAKBARFIRDAUSYA-cmd/mafv8?label=watchers&color=blue&style=flat-square" /></a> <br>
   <a href="https://www.npmjs.com/package/@open-wa/wa-automate"><img src="https://img.shields.io/npm/v/@open-wa/wa-automate.svg?color=green" /></a>
   <img src="https://img.shields.io/node/v/@open-wa/wa-automate" />
   <img src="https://img.shields.io/badge/maintained%3F-yes-green.svg?style=flat" />
-  <img src="https://img.shields.io/github/repo-size/SlavyanDesu/BocchiBot" /> <br>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FSlavyanDesu%2FBocchiBot?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FSlavyanDesu%2FBocchiBot.svg?type=shield"/></a>
-  <a href="https://www.codefactor.io/repository/github/SlavyanDesu/BocchiBot"><img src="https://www.codefactor.io/repository/github/SlavyanDesu/BocchiBot/badge" /></a>
+  <img src="https://img.shields.io/github/repo-size/MAULANAAKBARFIRDAUSYA-cmd/mafv8" /> <br>
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FMAULANAAKBARFIRDAUSYA-cmd%2Fmafv8?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FMAULANAAKBARFIRDAUSYA-cmd%2Fmafv8.svg?type=shield"/></a>
+  <a href="https://www.codefactor.io/repository/github/MAULANAAKBARFIRDAUSYA-cmd/mafv8"><img src="https://www.codefactor.io/repository/github/MAULANAAKBARFIRDAUSYA-cmd/mafv8/badge" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/SlavyanDesu/BocchiBot#requirements">Requirements</a> •
-  <a href="https://github.com/SlavyanDesu/BocchiBot#installation">Installation</a> •
-  <a href="https://github.com/SlavyanDesu/BocchiBot#features">Features</a> •
-  <a href="https://github.com/SlavyanDesu/BocchiBot#thanks-to">Thanks to</a> •
-  <a href="https://github.com/SlavyanDesu/BocchiBot#license">License</a>
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#requirements">Requirements</a> •
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#installation">Installation</a> •
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#features">Features</a> •
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#thanks-to">Thanks to</a> •
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#license">License</a>
 </p>
 
 <h4 align="center">
