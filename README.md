@@ -47,6 +47,31 @@
 > cd mafv8
 ```
 
+## 🔍 Installing the dependencies
+```bash
+> npm install
+```
+
+## 🆗 Running the bot
+Regular node:
+```bash
+> npm start
+```
+
+PM2:
+```bash
+> pm2 start index.js
+> pm2 monit
+```
+
+PM2 with cron job (restart after 5 hours):
+```bash
+> pm2 start index.js --cron "* */5 * * *"
+> pm2 monit
+```
+
+After that scan the QR code using your WhatsApp in your phone!
+
 ## ✍️ Editing the file
 Edit the required value in `config.json`.
 ```json
@@ -79,31 +104,6 @@ To:
 ```js
 eng.wrongFormat()
 ```
-
-## 🔍 Installing the dependencies
-```bash
-> npm install
-```
-
-## 🆗 Running the bot
-Regular node:
-```bash
-> npm start
-```
-
-PM2:
-```bash
-> pm2 start index.js
-> pm2 monit
-```
-
-PM2 with cron job (restart after 5 hours):
-```bash
-> pm2 start index.js --cron "* */5 * * *"
-> pm2 monit
-```
-
-After that scan the QR code using your WhatsApp in your phone!
 
 # Features
 If you want to unlock premium commands, please contact me~
