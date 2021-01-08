@@ -1008,7 +1008,7 @@ Contact person:
 wa.me/${ownerNumber.replace('@c.us', '')} (Owner/hoster)
 https://github.com/open-wa/wa-automate-nodejs (Developer)
 
-Kalian juga bisa mendukung saya agar bot ini tetap up to date dengan:
+Kalian juga bisa mendukung Saya agar bot ini tetap up to date dengan:
 PULSA : 0852 3616 7349
 PayPal : paypal.me/akbarfirdausya
 
