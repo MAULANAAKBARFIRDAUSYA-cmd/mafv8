@@ -994,7 +994,7 @@ exports.tos = (ownerNumber) => {
 -----[ TERMS OF SERVICE ]-----
 
 Bot ini merupakan open-source bot dengan nama asli BocchiBot yang tersedia di GitHub secara gratis.
-Owner/hoster dari bot ini terlepas dari tanggung jawab dan pengawasan developer (Slavyan).
+Owner/hoster dari bot ini terlepas dari tanggung jawab dan pengawasan developer (Open-WA).
 Owner/hoster boleh menjiplak, menambahkan, menghapus, mengganti source code dengan catatan *tidak memperjualbelikannya* dalam bentuk apapun.
 Apabila terjadi sebuah error, orang yang pertama yang harus kalian hubungi ialah owner/hoster.
 
