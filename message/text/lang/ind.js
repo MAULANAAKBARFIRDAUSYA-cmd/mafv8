@@ -92,11 +92,11 @@ exports.botNotAdmin = () => {
 }
 
 exports.ytFound = (res) => {
-    return `*Video ditemukan!*\n\n➸ *Judul*:${res.title}\n➸ *Deskripsi*:${res.desc}\n➸ *Durasi*: ${res.duration} menit\n\nMedia sedang dikirim, mohon tunggu...`
+    return `*Video ditemukan!*\n\n➸ *Judul*:${res.title}\n➸ *Deskripsi*:${res.desc}\n➸ *Durasi*: ${res.duration} menit\n\nMedia sedang dikirim, mohon tunggu...\nBergantung pada kecepatan jaringan server dan analisis API-Key`
 }
 
 exports.notRegistered = () => {
-    return `Kamu belum terdaftar di database!\n\nSilakan register dengan format:\n*${prefix}register* nama | umur\n\nNote:\nHarap save nomor ku agar bisa mendapatkan serial!!`
+    return `Kamu belum terdaftar di database!\n\nSilakan register dengan format:\n*${prefix}register* nama | umur\n\nContoh:\n*${prefix}register* Maulana-san | 18\n\nNote:\nHarap save nomor ku agar bisa mendapatkan serial!!\n0852 3616 7349`
 }
 
 exports.registered = (name, age, userId, time, serial) => {
@@ -282,11 +282,11 @@ Berikut adalah menu yang tersedia:
 Ketik *${prefix}menu* angka_index untuk membuka menu page yang dipilih.
 
 Catatan:
-Perlakukan bot secara baik, dev akan bertindak tegas apabila user melanggar rules.
+Perlakukan bot secara baik ya, jika tidak developer akan bertindak tegas apabila user melanggar rules.
 Bot ini terdapat anti-spam yang berupa cooldown command selama *5 detik* setiap kali pemakaian.
 
 Sincerely,
-Slavyan
+Maulana Akbar Firdausya
     `
 }
 
@@ -905,7 +905,7 @@ Usage: *${prefix}getses*
 4. *${prefix}ban*
 Menambah/menghapus user yang diban.
 Aliases: -
-Usage: *${prefix}ban* add/del @user/62812xxxxxxxx
+Usage: *${prefix}ban* add/del @user/62852xxxxxxxx
 
 5. *${prefix}leaveall*
 Keluar dari semua grup.
@@ -929,7 +929,7 @@ Menambah/menghapus user premium.
 *h* - jam
 *d* - hari
 Aliases: -
-Usage: *${prefix}premium* add/del @user/62812xxxxxxxx 30d
+Usage: *${prefix}premium* add/del @user/62852xxxxxxxx 30d
 
 9. *${prefix}setstatus*
 Mengganti status about me.
@@ -984,7 +984,7 @@ Sanksi: *PERMANENT BLOCK*
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}menu* untuk memulai!
 
 Source code oleh:
-wa.me/6281294958473 (Kal a.k.a. Slavyan)
+https://github.com/open-wa/wa-automate-nodejs
     `
 }
 
@@ -999,17 +999,18 @@ Owner/hoster boleh menjiplak, menambahkan, menghapus, mengganti source code deng
 Apabila terjadi sebuah error, orang yang pertama yang harus kalian hubungi ialah owner/hoster.
 
 Jika kalian ingin berkontribusi dalam projek ini, silakan kunjungi:
-https://github.com/SlavyanDesu/BocchiBot
+https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8
 
 Contact person:
 wa.me/${ownerNumber.replace('@c.us', '')} (Owner/hoster)
-wa.me/6281294958473 (Developer)
+https://github.com/open-wa/wa-automate-nodejs (Developer)
 
 Kalian juga bisa mendukung saya agar bot ini tetap up to date dengan:
-081294958473 (OVO/Telkomsel/GoPay)
+PULSA : 0852 3616 7349
+PayPal : paypal.me/akbarfirdausya
 
 Terima kasih!
 
-Slavyan.
+Maulana Akbar Firdausya.
     `
 }
