@@ -262,10 +262,11 @@ exports.pcOnly = () => {
     return `Command ini hanya bisa digunakan di dalam private chat saja!`
 }
 
-exports.menu = () => {
+exports.menu = (pushname) => {
     return `
 ------[ WELCOME ]-----
 
+Hi, ${pushname}! 👋️
 Berikut adalah menu yang tersedia:
 
 *[1]* Downloader
@@ -280,9 +281,11 @@ Berikut adalah menu yang tersedia:
 *[10]* Leveling [ALPHA]
 
 Ketik *${prefix}menu* angka_index untuk membuka menu page yang dipilih.
+Contoh: *${prefix}menu* 1
 
 Catatan:
-Perlakukan bot secara baik ya, jika tidak developer akan bertindak tegas apabila user melanggar rules.
+Perlakukan bot secara baik yaa!
+Jika tidak, developer akan bertindak tegas apabila user melanggar rules.
 Bot ini terdapat anti-spam yang berupa cooldown command selama *5 detik* setiap kali pemakaian.
 
 Sincerely,
