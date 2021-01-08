@@ -51,6 +51,10 @@
 ```bash
 > npm install
 ```
+atau
+```bash
+> npm i
+```
 
 ## 🆗 Running the bot
 Regular node:
