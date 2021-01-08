@@ -996,13 +996,13 @@ exports.tos = (ownerNumber) => {
     return `
 -----[ TERMS OF SERVICE ]-----
 
-Bot ini merupakan open-source bot dengan nama asli BocchiBot yang tersedia di GitHub secara gratis.
+Bot ini merupakan open-source bot dengan nama asli MAF's Assistant yang tersedia di GitHub.
 Owner/hoster dari bot ini terlepas dari tanggung jawab dan pengawasan developer (Open-WA).
-Owner/hoster boleh menjiplak, menambahkan, menghapus, mengganti source code dengan catatan *tidak memperjualbelikannya* dalam bentuk apapun.
+Owner/hoster dilarang menjiplak, menambahkan, menghapus, mengganti source code dalam bentuk apapun.
 Apabila terjadi sebuah error, orang yang pertama yang harus kalian hubungi ialah owner/hoster.
 
 Jika kalian ingin berkontribusi dalam projek ini, silakan kunjungi:
-https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8
+https://github.com/MAULANAAKBAR*******************
 
 Contact person:
 wa.me/${ownerNumber.replace('@c.us', '')} (Owner/hoster)
@@ -1012,8 +1012,8 @@ Kalian juga bisa mendukung saya agar bot ini tetap up to date dengan:
 PULSA : 0852 3616 7349
 PayPal : paypal.me/akbarfirdausya
 
-Terima kasih!
 
+Terima kasih!
 Maulana Akbar Firdausya.
     `
 }
