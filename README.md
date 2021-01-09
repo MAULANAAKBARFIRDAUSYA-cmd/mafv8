@@ -74,6 +74,8 @@ Any text editor
 ```
 
 ## 🔍 Installing the Dependencies
+If you using Termux, replace all " npm " command into " pkg "
+Example: pkg i, pkg install ffmpeg, pkg install gify-cli -g
 ```bash
 > npm i
 > npm install ffmpeg
