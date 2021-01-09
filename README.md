@@ -75,11 +75,8 @@ Any text editor
 
 ## 🔍 Installing the dependencies
 ```bash
-> npm install
-```
-or
-```bash
 > npm i
+> npm install ffmpeg
 ```
 
 ## 🆗 Running the bot
