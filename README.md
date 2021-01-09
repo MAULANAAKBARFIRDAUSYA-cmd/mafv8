@@ -32,7 +32,7 @@
 <p align="center">
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#requirements">Requirements</a> •
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#installation">Installation</a> •
-  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#changing-language">Changing Language</a> •
+  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#%EF%B8%8F-changing-language">Changing Language</a> •
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#editing-the-file">Editing the File</a> •
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#features">Features</a> •
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#features">Features</a> •
