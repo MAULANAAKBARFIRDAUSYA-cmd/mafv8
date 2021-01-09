@@ -95,7 +95,7 @@ PM2 with cron job (restart after 5 hours):
 After that scan the QR code using your WhatsApp in your phone!
 
 ## ✍️ Editing the file
-Edit the required value in `[config.json](https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8/blob/main/config.json)`.
+Edit the required value in [config.json](https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8/blob/main/config.json).
 ```json
 {
     "ownerBot": "62852xxxxxxxx@c.us", 
