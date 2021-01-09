@@ -77,6 +77,7 @@ Any text editor
 ```bash
 > npm i
 > npm install ffmpeg
+> npm install gify-cli -g
 ```
 
 ## 🆗 Running the bot
