@@ -60,11 +60,11 @@
 Any text editor
 
 [ PC ]
-* VS Code
+* [VS Code](https://code.visualstudio.com/)
 * Command Prompt
 
 [ Android ]
-* Termux
+* [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 # Installation
 ## 📝 Cloning this Project
