@@ -35,16 +35,6 @@
 [My WhatsApp BOT](https://wa.me/+6289504990855)</a></p>
 [Telegram](https://t.me/maulanaakbarf)</a></p>
 </h4>
-</p>
-
-<div align="center">
-<details>
- <summary>Contact me!</summary></a></p>
- 
-[GitHub](https://github.com/MAULANAAKBARFIRDAUSYA-cmd)</a></p>
-[My WhatsApp](https://wa.me/+6285236167349)</a></p>
-[My WhatsApp BOT](https://wa.me/+6289504990855)</a></p>
-[Telegram](https://t.me/maulanaakbarf)</a></p>
 
 </div>
 
