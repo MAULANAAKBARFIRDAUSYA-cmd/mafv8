@@ -79,7 +79,7 @@ Any text editor
 > npm install ffmpeg
 > npm install gify-cli -g
 ```
-If you are using Termux and dont have Node.js installed, install it before entering the "npm i" command:
+If you are using Termux and not yet install Node.js before, install it before entering the "npm i" command:
 ```bash
 > pkg install nodejs
 ```
