@@ -266,6 +266,7 @@ If you want to unlock premium commands, please contact me~
 
 # Thanks to
 * [`open-wa/wa-automate-nodejs`](https://github.com/open-wa/wa-automate-nodejs)
+* [`MAF's Assistant V5`](https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv5)
 
 # License
 **MAF's Assistant** © [Maulana Akbar Firdausya](https://github.com/MAULANAAKBARFIRDAUSYA-cmd), released under the MIT License.
