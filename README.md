@@ -67,20 +67,20 @@ Any text editor
 * Termux
 
 # Installation
-## 📝 Cloning this repo
+## 📝 Cloning this Project
 ```bash
 > git clone https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8
 > cd mafv8
 ```
 
-## 🔍 Installing the dependencies
+## 🔍 Installing the Dependencies
 ```bash
 > npm i
 > npm install ffmpeg
 > npm install gify-cli -g
 ```
 
-## 🆗 Running the bot
+## 🆗 Running the BOT
 Regular node:
 ```bash
 > npm start
