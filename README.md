@@ -26,12 +26,15 @@
   <img src="https://img.shields.io/github/repo-size/MAULANAAKBARFIRDAUSYA-cmd/mafv8" /> <br>
 </p>
 
-<p align="center">
-  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#requirements">Requirements</a> •
-  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#installation">Installation</a> •
-  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#features">Features</a> •
-  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#thanks-to">Thanks to</a> •
-  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#license">License</a>
+<h4 align="center">
+<details>
+ <summary>Contact me!</summary></a></p>
+ 
+[GitHub](https://github.com/MAULANAAKBARFIRDAUSYA-cmd)</a></p>
+[My WhatsApp](https://wa.me/+6285236167349)</a></p>
+[My WhatsApp BOT](https://wa.me/+6289504990855)</a></p>
+[Telegram](https://t.me/maulanaakbarf)</a></p>
+</h4>
 </p>
 
 <div align="center">
