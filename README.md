@@ -34,9 +34,15 @@
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#license">License</a>
 </p>
 
-<h4 align="center">
-  <a href="https://t.me/maulanaakbarf">Contact Me Via Telegram!</a>
-</h4>
+<div align="center">
+<details>
+ <summary>Contact me!</summary></a></p>
+ 
+[GitHub](https://github.com/MAULANAAKBARFIRDAUSYA-cmd)</a></p>
+[My WhatsApp](https://wa.me/+6285236167349)</a></p>
+[My WhatsApp BOT](https://wa.me/+6289504990855)</a></p>
+[Telegram](https://t.me/maulanaakbarf)</a></p>
+
 </div>
 
 # Requirements
