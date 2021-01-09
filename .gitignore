@@ -11,4 +11,4 @@ debug.log
 .node-persist
 
 # Lock file
-package-lock.json 
+package-lock.json
