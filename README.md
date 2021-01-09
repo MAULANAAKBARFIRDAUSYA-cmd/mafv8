@@ -35,7 +35,6 @@
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#%EF%B8%8F-changing-language">Changing Language</a> •
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#%EF%B8%8F-editing-the-file">Editing the File</a> •
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#features">Features</a> •
-  <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#features">Features</a> •
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#thanks-to">Thanks to</a> •
   <a href="https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv8#license">License</a>
 </p>
