@@ -36,7 +36,7 @@
 
 <h4 align="center">
 <details>
- <summary>Contact me!</summary></a></p>
+ <summary>Contact Me!</summary></a></p>
  
 [GitHub](https://github.com/MAULANAAKBARFIRDAUSYA-cmd)</a></p>
 [My WhatsApp](https://wa.me/+6285236167349)</a></p>
