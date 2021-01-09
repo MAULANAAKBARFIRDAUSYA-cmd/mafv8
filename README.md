@@ -74,12 +74,14 @@ Any text editor
 ```
 
 ## 🔍 Installing the Dependencies
-If you using Termux, replace all " npm " command into " pkg "
-Example: pkg i, pkg install ffmpeg, pkg install gify-cli -g
 ```bash
 > npm i
 > npm install ffmpeg
 > npm install gify-cli -g
+```
+If you are using Termux and dont have Node.js installed, install it before entering the "npm i" command:
+```bash
+> pkg install nodejs
 ```
 
 ## 🆗 Running the BOT
