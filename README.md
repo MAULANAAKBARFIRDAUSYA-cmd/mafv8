@@ -77,7 +77,7 @@ Any text editor
 ```bash
 > npm install
 ```
-atau
+or
 ```bash
 > npm i
 ```
