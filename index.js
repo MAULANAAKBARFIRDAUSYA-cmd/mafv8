@@ -1,4 +1,4 @@
-const { create, Client } = require('@open-wa/wa-automate')
+const { create, Client } = require('@open-wa/wa-automate') 
 const { color, options } = require('./tools')
 const { ind, eng } = require('./message/text/lang/')
 const figlet = require('figlet')
