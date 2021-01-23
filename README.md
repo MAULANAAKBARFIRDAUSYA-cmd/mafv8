@@ -62,7 +62,7 @@ Any text editor
 [ PC ] (it only takes one application to run it)
 * [VS Code](https://code.visualstudio.com/)
 * Windows PowerShell
-* [Command Prompt](C:\Users\Maulana Akbar\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\Command Prompt.lnk)
+* Command Prompt
 
 [ Android ]
 * [Termux](https://play.google.com/store/apps/details?id=com.termux)
