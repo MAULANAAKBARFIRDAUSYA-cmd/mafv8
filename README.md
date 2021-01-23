@@ -293,5 +293,4 @@ If you want to unlock premium commands, please contact me~
 * [`MAF's Assistant V5`](https://github.com/MAULANAAKBARFIRDAUSYA-cmd/mafv5)
 
 # License
-**MAF's Assistant** © [Maulana Akbar Firdausya](https://github.com/MAULANAAKBARFIRDAUSYA-cmd), released under the MIT License.
-Authored and maintained by Maulana Akbar Firdausya.
+Released under the MIT License.
