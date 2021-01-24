@@ -55,13 +55,17 @@
 # Requirements
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip) (for sticker GIF command)
+* [FFmpeg - All Available Version](https://www.gyan.dev/ffmpeg/builds/) (for Sticker GIF Command)
+* [libwebp](https://developers.google.com/speed/webp/download)
+
+Download all Requirements :
+* [All Requirements - Direct Link Download](https://drive.google.com/file/d/1hgU4iMXYd_8cwuYsWHMNoG9AweH40Eys/view) (Google Drive)
 
 Any text editor
 
 [ PC ] (it only takes one application to run it)
 * [VS Code](https://code.visualstudio.com/)
-* Windows PowerShell
+* Windows PowerShell / Windows PowerShell ISE
 * Command Prompt
 
 [ Android ]
@@ -77,7 +81,6 @@ Any text editor
 ## 🔍 Installing the Dependencies
 ```bash
 > npm i
-> npm install ffmpeg
 > npm install gify-cli -g
 ```
 If you are using Termux and not yet install Node.js before, install it before entering the "npm i" command:
