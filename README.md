@@ -56,7 +56,7 @@
 * [Node.js](https://nodejs.org/en/)
 * [Git](https://git-scm.com/downloads)
 * [FFmpeg - All Available Version](https://www.gyan.dev/ffmpeg/builds/) (for Sticker GIF Command)
-* [libwebp](https://developers.google.com/speed/webp/download)
+* [libwebp](https://developers.google.com/speed/webp/download) (for sticker watermarks)
 
 Download all Requirements :
 * [All Requirements - Direct Link Download](https://drive.google.com/file/d/1hgU4iMXYd_8cwuYsWHMNoG9AweH40Eys/view) (Google Drive)
